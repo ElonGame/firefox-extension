@@ -1,5 +1,7 @@
 # Lantern Firefox Extension
 
+![alt tag](https://raw.githubusercontent.com/getlantern/firefox-extension/master/screenshot.png)
+
 Demo Firefox extension for Lantern
 
 # Steps for running the extension
