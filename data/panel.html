@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lantern Panel</title>
+</head>
+<body>
+    <menu id="menu" type="popup">
+        Lantern Menu
+        <li id="open-www">
+            <img src="images/webpage.png">
+        Open Lantern
+        </li>
+        <li id="show-popup">
+            <img src="images/gear.png">
+        Show Popup
+        </li>
+    </menu>
+</body>
+<style type="text/css">
+    * {
+        -moz-user-input: disabled;
+        -moz-user-select: -moz-none;
+        cursor: default;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        height: calc(50% - 2ex);
+        margin: 1ex;
+    }
+    #menu {
+        flex: 1 0 auto;
+        padding: 0;
+    }
+    #menu > li {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        box-shadow: 0 0 0 1ex transparent;
+        padding: 0.5ex;
+        align-items: center;
+        font-size: 0.9em;
+    }
+    #menu > li:hover {
+        color: HighlightText;
+        background-color: Highlight;
+        box-shadow: 0 0 0.5ex Highlight;
+    }
+    #menu > li > img {
+        min-width: 16px;
+        min-height: 16px;
+        width: 16px;
+        height: 16px;
+        max-width: 16px;
+        max-height: 16px;
+        margin-right: 0.5ex;
+    }
+</style>
+</html>

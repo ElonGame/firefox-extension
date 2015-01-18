@@ -1,0 +1,9 @@
+{
+  "name": "lantern-firefox-extension",
+  "title": "lantern-firefox-extension",
+  "id": "jid1-NI8LhA9qjx4E9A",
+  "description": "Firefox extension for Lantern",
+  "author": "atavism@getlantern.org",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}
